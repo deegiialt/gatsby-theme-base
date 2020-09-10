@@ -23,7 +23,6 @@ const DefaultLayout = ({ children }) => {
       <>
         <GlobalStyle />
         { children }
-        {/* <button onClick={toggleTheme}>Toggle theme</button> */}
         <Button onClickAction={toggleTheme}>Toggle theme</Button>
       </>
     </ThemeProvider>

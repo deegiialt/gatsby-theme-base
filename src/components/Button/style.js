@@ -7,4 +7,5 @@ export const StyledButton = styled.button`
   background: transparent;
   outline: none;
   border: ${ ({ theme }) => theme.colors.primary } 2px solid;
+  cursor: pointer;
 `;
